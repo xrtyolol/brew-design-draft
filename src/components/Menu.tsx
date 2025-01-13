@@ -12,42 +12,42 @@ import {
 const menuItems = [
   {
     id: 1,
-    name: "Espresso",
-    description: "Rich and bold single shot of espresso",
-    price: "$3.50",
+    name: "Еспресо",
+    description: "Насичений та міцний одинарний еспресо",
+    price: "₴120",
     category: "coffee",
     image: "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: 2,
-    name: "Cappuccino",
-    description: "Espresso with steamed milk and foam",
-    price: "$4.50",
+    name: "Капучіно",
+    description: "Еспресо з паровим молоком та пінкою",
+    price: "₴150",
     category: "coffee",
     image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: 3,
-    name: "Croissant",
-    description: "Buttery, flaky French pastry",
-    price: "$3.75",
+    name: "Круасан",
+    description: "Масляний, шаруватий французький круасан",
+    price: "₴85",
     category: "food",
     image: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
   },
   {
     id: 4,
-    name: "Avocado Toast",
-    description: "Sourdough bread with mashed avocado",
-    price: "$8.50",
+    name: "Тост з авокадо",
+    description: "Хліб на заквасці з пюре з авокадо",
+    price: "₴180",
     category: "food",
     image: "https://images.unsplash.com/photo-1588137378633-dea1336ce1e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
   },
 ];
 
 const categories = [
-  { id: "all", name: "All", icon: Coffee },
-  { id: "coffee", name: "Coffee", icon: Coffee },
-  { id: "food", name: "Food", icon: EggFried },
+  { id: "all", name: "Все", icon: Coffee },
+  { id: "coffee", name: "Кава", icon: Coffee },
+  { id: "food", name: "Їжа", icon: EggFried },
 ];
 
 const Menu = () => {
@@ -62,10 +62,10 @@ const Menu = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-playfair font-bold text-coffee-dark mb-4">
-            Our Menu
+            Наше меню
           </h2>
           <p className="text-coffee-medium max-w-2xl mx-auto">
-            Discover our carefully curated selection of coffee and food items
+            Відкрийте для себе наш ретельно підібраний вибір кави та страв
           </p>
         </div>
 
@@ -109,7 +109,7 @@ const Menu = () => {
                     className="text-coffee-dark hover:text-coffee-medium"
                     onClick={() => window.location.href = "#order"}
                   >
-                    Order
+                    Замовити
                   </Button>
                 </div>
               </CardContent>

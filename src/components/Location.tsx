@@ -6,10 +6,10 @@ const Location = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-playfair font-bold text-coffee-dark mb-4">
-            Find Us
+            Як нас знайти
           </h2>
           <p className="text-coffee-medium">
-            Visit us today and experience the perfect cup of coffee
+            Завітайте до нас сьогодні та спробуйте ідеальну чашку кави
           </p>
         </div>
 
@@ -19,16 +19,16 @@ const Location = () => {
               <div className="flex items-center">
                 <MapPin className="w-6 h-6 text-coffee-dark mr-4" />
                 <div>
-                  <h3 className="font-playfair font-bold text-coffee-dark">Address</h3>
-                  <p className="text-coffee-medium">123 Coffee Street, City, Country</p>
+                  <h3 className="font-playfair font-bold text-coffee-dark">Адреса</h3>
+                  <p className="text-coffee-medium">вул. Кавова, 123, Київ, Україна</p>
                 </div>
               </div>
 
               <div className="flex items-center">
                 <Phone className="w-6 h-6 text-coffee-dark mr-4" />
                 <div>
-                  <h3 className="font-playfair font-bold text-coffee-dark">Phone</h3>
-                  <p className="text-coffee-medium">+1 234 567 890</p>
+                  <h3 className="font-playfair font-bold text-coffee-dark">Телефон</h3>
+                  <p className="text-coffee-medium">+380 44 123 4567</p>
                 </div>
               </div>
 
@@ -41,12 +41,12 @@ const Location = () => {
               </div>
 
               <div className="border-t pt-6">
-                <h3 className="font-playfair font-bold text-coffee-dark mb-2">Opening Hours</h3>
+                <h3 className="font-playfair font-bold text-coffee-dark mb-2">Години роботи</h3>
                 <div className="grid grid-cols-2 gap-2 text-coffee-medium">
-                  <div>Monday - Friday</div>
-                  <div>7:00 AM - 8:00 PM</div>
-                  <div>Saturday - Sunday</div>
-                  <div>8:00 AM - 7:00 PM</div>
+                  <div>Понеділок - П'ятниця</div>
+                  <div>7:00 - 20:00</div>
+                  <div>Субота - Неділя</div>
+                  <div>8:00 - 19:00</div>
                 </div>
               </div>
             </div>
