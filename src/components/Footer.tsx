@@ -13,48 +13,48 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-white/80">
-              Crafting perfect moments, one cup at a time.
+              Створюємо ідеальні моменти, одна чашка за раз.
             </p>
           </div>
 
           <div>
-            <h3 className="font-playfair font-bold text-lg mb-4">Quick Links</h3>
+            <h3 className="font-playfair font-bold text-lg mb-4">Швидкі посилання</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#home" className="text-white/80 hover:text-white transition-colors">
-                  Home
+                  Головна
                 </a>
               </li>
               <li>
                 <a href="#menu" className="text-white/80 hover:text-white transition-colors">
-                  Menu
+                  Меню
                 </a>
               </li>
               <li>
                 <a href="#about" className="text-white/80 hover:text-white transition-colors">
-                  About
+                  Про нас
                 </a>
               </li>
               <li>
                 <a href="#location" className="text-white/80 hover:text-white transition-colors">
-                  Location
+                  Локація
                 </a>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-playfair font-bold text-lg mb-4">Contact</h3>
+            <h3 className="font-playfair font-bold text-lg mb-4">Контакти</h3>
             <ul className="space-y-2 text-white/80">
-              <li>123 Coffee Street</li>
-              <li>City, Country</li>
-              <li>+1 234 567 890</li>
+              <li>вул. Кавова, 123</li>
+              <li>Київ, Україна</li>
+              <li>+380 44 123 4567</li>
               <li>hello@coffeehaven.com</li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-playfair font-bold text-lg mb-4">Follow Us</h3>
+            <h3 className="font-playfair font-bold text-lg mb-4">Слідкуйте за нами</h3>
             <div className="flex space-x-4">
               <a
                 href="#"
@@ -82,7 +82,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-white/20 mt-12 pt-8 text-center text-white/60">
-          <p>&copy; {new Date().getFullYear()} Coffee Haven. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Coffee Haven. Всі права захищені.</p>
         </div>
       </div>
     </footer>

@@ -20,11 +20,11 @@ export default {
     extend: {
       colors: {
         coffee: {
-          dark: "#8B4513",
-          medium: "#A0522D",
-          light: "#DEB887",
-          cream: "#FDF5E6",
-          accent: "#DAA520",
+          dark: "#1A1F2C",
+          medium: "#221F26",
+          light: "#333333",
+          cream: "#C8C8C9",
+          accent: "#555555",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
