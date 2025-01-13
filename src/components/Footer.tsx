@@ -9,11 +9,11 @@ const Footer = () => {
             <div className="flex items-center">
               <Coffee className="h-8 w-8" />
               <span className="ml-2 text-xl font-playfair font-bold">
-                Coffee Haven
+                Mafia
               </span>
             </div>
             <p className="text-white/80">
-              Створюємо ідеальні моменти, одна чашка за раз.
+              Створюємо ідеальні моменти, одна страва за раз.
             </p>
           </div>
 
@@ -49,7 +49,7 @@ const Footer = () => {
               <li>вул. Кавова, 123</li>
               <li>Київ, Україна</li>
               <li>+380 44 123 4567</li>
-              <li>hello@coffeehaven.com</li>
+              <li>hello@mafia.com</li>
             </ul>
           </div>
 
@@ -82,7 +82,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-white/20 mt-12 pt-8 text-center text-white/60">
-          <p>&copy; {new Date().getFullYear()} Coffee Haven. Всі права захищені.</p>
+          <p>&copy; {new Date().getFullYear()} Mafia. Всі права захищені.</p>
         </div>
       </div>
     </footer>
